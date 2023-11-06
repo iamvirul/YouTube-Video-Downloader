@@ -5,9 +5,9 @@ from pytube import YouTube
 
 def startDownload():
     try:
-        ytlink = str(link.get())
-        youtubeobject = YouTube(ytlink)
-        video = youtubeobject.streams.get_highest_resolution()
+        youtube_url = str(link.get())
+        youtube_object = YouTube(youtube_url)
+        video = youtube_object.streams.get_highest_resolution()
         video.download('~/download')
     except Exception as e:
         finishLabel.configure(text=e, text_color="red")
