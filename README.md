@@ -15,7 +15,7 @@ These instructions will help you set up and run the program on your local machin
 You can install the necessary libraries using pip:
 ### Running the Program
 
-1. Clone the repository or download the script file `youtube_downloader.py`.
+1. Clone the repository or download the script file `main.py`.
 2. Make sure you have the prerequisites installed.
 3. Run the script using Python:
 4. Enter the YouTube link of the video you want to download.
